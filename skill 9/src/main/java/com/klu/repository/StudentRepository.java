@@ -24,4 +24,9 @@ public class StudentRepository {
     public Student findById(String id) {
         return studentDatabase.get(id);
     }
+
+    public Student save(Student student) {
+        studentDatabase.put(student.getId(), student);
+        return student;
+    }
 }

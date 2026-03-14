@@ -16,8 +16,6 @@ public class StudentService {
     }
 
     public Student getStudent(String id) {
-        // Task 8: Test invalid input format (e.g., text instead of number) to trigger
-        // InvalidInputException
         try {
             int studentId = Integer.parseInt(id);
             if (studentId <= 0) {
@@ -27,11 +25,31 @@ public class StudentService {
             throw new InvalidInputException("Invalid ID format. Student ID must be numeric.");
         }
 
-        // Trigger StudentNotFoundException if ID doesn't exist
         if (!studentRepository.existsById(id)) {
             throw new StudentNotFoundException("Student with ID " + id + " was not found in the system.");
         }
 
         return studentRepository.findById(id);
+    }
+
+    public Student addStudent(Student student) {
+        if (student == null || student.getId() == null) {
+            throw new InvalidInputException("Student details cannot be null.");
+        }
+
+        try {
+            int studentId = Integer.parseInt(student.getId());
+            if (studentId <= 0) {
+                throw new InvalidInputException("Student ID must be a positive number.");
+            }
+        } catch (NumberFormatException e) {
+            throw new InvalidInputException("Invalid ID format. Student ID must be numeric.");
+        }
+
+        if (studentRepository.existsById(student.getId())) {
+            throw new InvalidInputException("Student with ID " + student.getId() + " already exists.");
+        }
+
+        return studentRepository.save(student);
     }
 }

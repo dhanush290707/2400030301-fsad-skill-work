@@ -1,4 +1,23 @@
 import React, { useState } from 'react';
+import { 
+    Box, 
+    Container, 
+    Typography, 
+    Paper, 
+    Stack, 
+    TextField, 
+    Button, 
+    Table, 
+    TableBody, 
+    TableCell, 
+    TableContainer, 
+    TableHead, 
+    TableRow,
+    IconButton
+} from '@mui/material';
+import DeleteIcon from '@mui/icons-material/Delete';
+import PersonAddIcon from '@mui/icons-material/PersonAdd';
+import InboxIcon from '@mui/icons-material/Inbox';
 import './StudentManager.css';
 
 const initialStudents = [
@@ -30,84 +49,108 @@ export default function StudentManager() {
     };
 
     return (
-        <div className="manager-container">
-            <div className="header">
-                <h2 className="title">Academic Portal</h2>
-                <p className="subtitle">Manage Student Information</p>
-            </div>
+        <Container maxWidth="md" className="manager-container">
+            <Box textAlign="center" mb={4} mt={2}>
+                <Typography variant="h3" component="h2" color="primary" sx={{ fontWeight: 600, letterSpacing: '-0.5px', mb: 1 }}>
+                    Academic Portal
+                </Typography>
+                <Typography variant="subtitle1" color="text.secondary">
+                    Manage Student Information
+                </Typography>
+            </Box>
 
-            <div className="glass-card form-card">
-                <h3>Add New Student</h3>
-                <form onSubmit={handleAddStudent} className="student-form">
-                    <div className="input-group">
-                        <input
-                            type="text"
+            <Paper className="glass-card form-card" elevation={0} sx={{ mb: 4, p: 4, borderRadius: 4 }}>
+                <Typography variant="h6" component="h3" sx={{ mb: 3, fontWeight: 500, borderBottom: '2px solid', borderColor: 'divider', pb: 1 }}>
+                    Add New Student
+                </Typography>
+                <Box component="form" onSubmit={handleAddStudent} sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
+                    <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
+                        <TextField
                             name="id"
-                            placeholder="Student ID"
+                            label="Student ID"
+                            variant="outlined"
                             value={newStudent.id}
                             onChange={handleInputChange}
                             required
+                            fullWidth
                         />
-                        <input
-                            type="text"
+                        <TextField
                             name="name"
-                            placeholder="Student Name"
+                            label="Student Name"
+                            variant="outlined"
                             value={newStudent.name}
                             onChange={handleInputChange}
                             required
+                            fullWidth
                         />
-                        <input
-                            type="text"
+                        <TextField
                             name="course"
-                            placeholder="Course"
+                            label="Course"
+                            variant="outlined"
                             value={newStudent.course}
                             onChange={handleInputChange}
                             required
+                            fullWidth
                         />
-                    </div>
-                    <button type="submit" className="btn btn-add">Add Student</button>
-                </form>
-            </div>
+                    </Stack>
+                    <Button 
+                        type="submit" 
+                        variant="contained" 
+                        color="primary" 
+                        startIcon={<PersonAddIcon />}
+                        sx={{ alignSelf: 'flex-start', px: 4, py: 1.5, borderRadius: 2 }}
+                    >
+                        Add Student
+                    </Button>
+                </Box>
+            </Paper>
 
-            <div className="glass-card list-card">
-                <h3>Student List</h3>
+            <Paper className="glass-card list-card" elevation={0} sx={{ p: 4, borderRadius: 4 }}>
+                <Typography variant="h6" component="h3" sx={{ mb: 3, fontWeight: 500, borderBottom: '2px solid', borderColor: 'divider', pb: 1 }}>
+                    Student List
+                </Typography>
+                
                 {students.length === 0 ? (
-                    <div className="no-data">
-                        <span className="icon">📭</span>
-                        <p>No students available</p>
-                    </div>
+                    <Box textAlign="center" py={8} color="text.secondary">
+                        <InboxIcon sx={{ fontSize: 60, mb: 2, opacity: 0.8 }} />
+                        <Typography variant="h6" fontWeight={500}>No students available</Typography>
+                    </Box>
                 ) : (
-                    <div className="table-responsive">
-                        <table className="student-table">
-                            <thead>
-                                <tr>
-                                    <th>ID</th>
-                                    <th>Name</th>
-                                    <th>Course</th>
-                                    <th>Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
+                    <TableContainer>
+                        <Table sx={{ minWidth: 650 }} aria-label="student table">
+                            <TableHead sx={{ backgroundColor: 'rgba(248, 250, 252, 0.5)' }}>
+                                <TableRow>
+                                    <TableCell sx={{ fontWeight: 600, borderTopLeftRadius: 8 }}>ID</TableCell>
+                                    <TableCell sx={{ fontWeight: 600 }}>Name</TableCell>
+                                    <TableCell sx={{ fontWeight: 600 }}>Course</TableCell>
+                                    <TableCell align="center" sx={{ fontWeight: 600, borderTopRightRadius: 8 }}>Action</TableCell>
+                                </TableRow>
+                            </TableHead>
+                            <TableBody>
                                 {students.map((student, index) => (
-                                    <tr key={`${student.id}-${index}`}>
-                                        <td>{student.id}</td>
-                                        <td>{student.name}</td>
-                                        <td>{student.course}</td>
-                                        <td className="action-cell">
-                                            <button
+                                    <TableRow 
+                                        key={`${student.id}-${index}`}
+                                        sx={{ '&:hover': { backgroundColor: 'rgba(248, 250, 252, 0.8)' }, transition: 'background-color 0.2s ease' }}
+                                    >
+                                        <TableCell>{student.id}</TableCell>
+                                        <TableCell>{student.name}</TableCell>
+                                        <TableCell>{student.course}</TableCell>
+                                        <TableCell align="center">
+                                            <IconButton 
+                                                color="error" 
                                                 onClick={() => handleDelete(student.id)}
-                                                className="btn btn-delete"
+                                                aria-label="delete"
                                             >
-                                                Delete
-                                            </button>
-                                        </td>
-                                    </tr>
+                                                <DeleteIcon />
+                                            </IconButton>
+                                        </TableCell>
+                                    </TableRow>
                                 ))}
-                            </tbody>
-                        </table>
-                    </div>
+                            </TableBody>
+                        </Table>
+                    </TableContainer>
                 )}
-            </div>
-        </div>
+            </Paper>
+        </Container>
     );
 }

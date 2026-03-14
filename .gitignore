@@ -1,1 +1,38 @@
-/.metadata/
+# Ignore everything in the root directory by default
+/*
+
+# Allow all 'skill ' directories
+!/skill */
+
+# Allow this .gitignore file to be tracked
+!.gitignore
+
+# --- Standard project ignores ---
+
+# Eclipse/IDE files
+.metadata/
+.vscode/
+.idea/
+*.launch
+
+# Node / React
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# Java / Maven / Spring Boot
+target/
+*.class
+*.jar
+*.war
+.mvn/
+*-rsp.xml
+dependency-reduced-pom.xml
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db

@@ -1,5 +1,6 @@
 package com.klu;
 
+import com.klu.model.Student;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class App {

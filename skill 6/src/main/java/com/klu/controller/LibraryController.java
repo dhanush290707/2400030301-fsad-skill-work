@@ -1,11 +1,10 @@
 package com.klu.controller;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 import com.klu.model.Book;
-import com.klu.service.BookService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,12 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LibraryController {
 
-    private final BookService bookService;
-
-    @Autowired
-    public LibraryController(BookService bookService) {
-        this.bookService = bookService;
-    }
+    private List<Book> booksList = new ArrayList<>();
 
     // 1. /welcome - returns a welcome message
     @GetMapping("/welcome")
@@ -44,22 +38,21 @@ public class LibraryController {
     // 4. /books - returns a list of book titles
     @GetMapping("/books")
     public List<String> books() {
-        return Arrays.asList(
-                "Java: The Complete Reference",
-                "Spring in Action",
-                "Head First Design Patterns",
-                "Clean Code",
-                "Effective Java");
+        return Arrays.asList("Java: The Complete Reference", "Spring in Action", "Head First Design Patterns", "Clean Code", "Effective Java");
     }
 
     // 5. /books/{id} - returns book details using @PathVariable
     @GetMapping("/books/{id}")
-    public String bookById(@PathVariable int id) {
-        return bookService.getBookDetailsById(id);
+    public Book bookById(@PathVariable int id) {
+        for (Book book : booksList) {
+            if (book.getId() == id) {
+                return book;
+            }
+        }
+        return null;
     }
 
-    // 6. /search - accepts a request parameter (title) and returns a confirmation
-    // message
+    // 6. /search - accepts a request parameter (title) and returns a confirmation message
     @GetMapping("/search")
     public String search(@RequestParam String title) {
         return "Searching for book with title: " + title;
@@ -74,13 +67,13 @@ public class LibraryController {
     // 8. /addbook - accepts a Book object from request body and adds it to the list
     @PostMapping("/addbook")
     public String addBook(@RequestBody Book book) {
-        Book savedBook = bookService.addBook(book);
-        return "Book added successfully: " + savedBook.getTitle();
+        booksList.add(book);
+        return "Book added successfully";
     }
 
     // 9. /viewbooks - returns all added Book objects
     @GetMapping("/viewbooks")
     public List<Book> viewBooks() {
-        return bookService.getAllBooks();
+        return booksList;
     }
 }

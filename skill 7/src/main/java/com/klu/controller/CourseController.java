@@ -1,6 +1,5 @@
 package com.klu.controller;
 
-import com.klu.exception.CourseNotFoundException;
 import com.klu.model.Course;
 import com.klu.service.CourseService;
 import org.springframework.http.HttpStatus;
@@ -22,6 +21,9 @@ public class CourseController {
 
     @PostMapping
     public ResponseEntity<String> addCourse(@RequestBody Course course) {
+        if (course.getCourseId() == null || course.getTitle() == null) {
+            return new ResponseEntity<>("Error: Missing required fields", HttpStatus.BAD_REQUEST);
+        }
         Course created = courseService.addCourse(course);
         return new ResponseEntity<>("Course " + created.getTitle() + " created successfully.", HttpStatus.CREATED);
     }
@@ -37,25 +39,39 @@ public class CourseController {
         if (course.isPresent()) {
             return new ResponseEntity<>(course.get(), HttpStatus.OK);
         } else {
-            throw new CourseNotFoundException("Course not found with id: " + id);
+            return new ResponseEntity<>("Error: Course not found", HttpStatus.NOT_FOUND);
         }
     }
 
     @PutMapping("/{id}")
     public ResponseEntity<String> updateCourse(@PathVariable Long id, @RequestBody Course courseDetails) {
-        courseService.updateCourse(id, courseDetails);
-        return new ResponseEntity<>("Course updated successfully.", HttpStatus.OK);
+        if (courseDetails.getCourseId() != null && !id.equals(courseDetails.getCourseId())) {
+            return new ResponseEntity<>("Error: Path mismatch with Course ID", HttpStatus.BAD_REQUEST);
+        }
+        Course updatedCourse = courseService.updateCourse(id, courseDetails);
+        if (updatedCourse != null) {
+            return new ResponseEntity<>("Course updated successfully.", HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>("Error: Course not found", HttpStatus.NOT_FOUND);
+        }
     }
 
     @DeleteMapping("/{id}")
     public ResponseEntity<String> deleteCourse(@PathVariable Long id) {
-        courseService.deleteCourse(id);
-        return new ResponseEntity<>("Course deleted successfully.", HttpStatus.OK);
+        boolean deleted = courseService.deleteCourse(id);
+        if (deleted) {
+            return new ResponseEntity<>("Course deleted successfully.", HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>("Error: Course not found", HttpStatus.NOT_FOUND);
+        }
     }
 
     @GetMapping("/search/{title}")
     public ResponseEntity<?> searchCourses(@PathVariable String title) {
         List<Course> foundCourses = courseService.searchCoursesByTitle(title);
+        if (foundCourses.isEmpty()) {
+            return new ResponseEntity<>("Error: No courses found with title: " + title, HttpStatus.NOT_FOUND);
+        }
         return new ResponseEntity<>(foundCourses, HttpStatus.OK);
     }
 }

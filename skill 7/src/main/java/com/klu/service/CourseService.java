@@ -1,6 +1,5 @@
 package com.klu.service;
 
-import com.klu.exception.CourseNotFoundException;
 import com.klu.model.Course;
 import com.klu.repository.CourseRepository;
 import org.springframework.stereotype.Service;
@@ -38,23 +37,15 @@ public class CourseService {
             existingCourse.setFee(updatedCourse.getFee());
             return existingCourse;
         } else {
-            throw new CourseNotFoundException("Course not found with id: " + id);
+            return null;
         }
     }
 
     public boolean deleteCourse(Long id) {
-        boolean deleted = courseRepository.deleteById(id);
-        if (!deleted) {
-            throw new CourseNotFoundException("Course not found with id: " + id);
-        }
-        return deleted;
+        return courseRepository.deleteById(id);
     }
 
     public List<Course> searchCoursesByTitle(String title) {
-        List<Course> foundCourses = courseRepository.findByTitleContainingIgnoreCase(title);
-        if (foundCourses.isEmpty()) {
-            throw new CourseNotFoundException("No courses found matching title: " + title);
-        }
-        return foundCourses;
+        return courseRepository.findByTitleContainingIgnoreCase(title);
     }
 }

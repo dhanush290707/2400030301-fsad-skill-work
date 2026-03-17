@@ -1021,3 +1021,297 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:11:52.891
 !MESSAGE 08:11:52.890 [pool-3-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/LibrarySystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:22:23.321
+!MESSAGE 08:22:23.320 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/LibrarySystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:22:23.342
+!MESSAGE 08:22:23.342 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/LibrarySystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:22:23.347
+!MESSAGE 08:22:23.345 [pool-3-thread-14] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/LibrarySystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:24:33.664
+!MESSAGE 08:24:33.659 [pool-3-thread-16] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/LibrarySystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:24:49.573
+!MESSAGE 08:24:49.569 [pool-3-thread-16] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/LibrarySystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:24:49.575
+!MESSAGE 08:24:49.575 [pool-3-thread-17] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/LibrarySystemApplication.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:24:50.575
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:24:50.576
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:24:50.576
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:24:50.577
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:24:50.591
+!MESSAGE 08:24:50.590 [pool-3-thread-16] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/LibrarySystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:24:50.595
+!MESSAGE 08:24:50.593 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/model/Book.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:24:50.601
+!MESSAGE 08:24:50.597 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/controller/LibraryController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:24:50.613
+!MESSAGE 08:24:50.605 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/model/Book.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:24:50.613
+!MESSAGE 08:24:50.606 [pool-3-thread-16] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/model/Book.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:24:50.619
+!MESSAGE 08:24:50.618 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/controller/LibraryController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:24:50.634
+!MESSAGE 08:24:50.627 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - scan java files, AST parse, chunk 0 for files: 7
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:24:50.859
+!MESSAGE 08:24:50.859 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - reconciling stats - counter: 28
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:24:50.908
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:24:50.909
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:24:50.909
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:24:50.910
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:24:50.953
+!MESSAGE 08:24:50.944 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///C:/Workspaces/FSAD%20Skill/skill%207/target/classes/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:28:47.473
+!MESSAGE 08:24:51.628 [pool-3-thread-18] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/LibrarySystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:28:47.474
+!MESSAGE 08:28:47.468 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/controller/CourseController.java, file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/service/CourseService.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:28:47.474
+!MESSAGE 08:28:47.468 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/service/CourseService.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:28:47.695
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:28:47.696
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:28:47.696
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:28:47.697
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:28:47.728
+!MESSAGE 08:28:47.566 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - Start scanning affected files for types [com.klu.controller.CourseController, com.klu.service.CourseService]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:28:47.743
+!MESSAGE 08:28:47.732 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///C:/Workspaces/FSAD%20Skill/skill%207/target/classes/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:28:48.249
+!MESSAGE 08:28:48.248 [pool-5-thread-8] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/LibrarySystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:28:48.267
+!MESSAGE 08:28:48.266 [pool-5-thread-8] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/LibrarySystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:28:48.272
+!MESSAGE 08:28:48.271 [pool-3-thread-22] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/LibrarySystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:28:48.274
+!MESSAGE 08:28:48.274 [pool-3-thread-23] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/LibrarySystemApplication.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:28:48.809
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:28:48.810
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:28:48.810
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:28:48.811
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:28:49.342
+!MESSAGE 08:28:49.337 [pool-3-thread-23] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/LibrarySystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:28:50.545
+!MESSAGE 08:28:50.544 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///C:/Workspaces/FSAD%20Skill/skill%206/target/classes/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:28:50.644
+!MESSAGE 08:28:50.644 [ForkJoinPool.commonPool-worker-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Removing and cleaning up name env for project file:/C:/Workspaces/FSAD%20Skill/skill%206
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:28:50.913
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:28:50.913
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:28:50.914
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:28:50.914
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:28:50.935
+!MESSAGE 08:28:50.934 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - additional reconciling with complete index triggered for: [C:\Workspaces\FSAD Skill\skill 6\src\main\java\com\klu\controller\LibraryController.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:28:51.465
+!MESSAGE 08:28:51.433 [pool-5-thread-8] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/LibrarySystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:28:51.465
+!MESSAGE 08:28:51.464 [pool-3-thread-22] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%206/src/main/java/com/klu/LibrarySystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:29.054
+!MESSAGE 08:31:29.053 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 1
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:29.092
+!MESSAGE 08:31:29.058 [pool-3-thread-24] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/CourseApiApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:29.092
+!MESSAGE 08:31:29.091 [pool-3-thread-25] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/CourseApiApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:29.179
+!MESSAGE 08:31:29.095 [pool-3-thread-26] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/CourseApiApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:29.557
+!MESSAGE 08:31:29.179 [pool-3-thread-26] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/CourseApiApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:29.557
+!MESSAGE 08:31:29.557 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/CourseApiApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:29.558
+!MESSAGE 08:31:29.557 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/CourseApiApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:50.939
+!MESSAGE 08:31:47.764 [Reconciler-1] INFO  o.s.i.v.b.m.SpringPropertiesIndexManager - Indexing Spring Boot Properties for skill 7 DONE
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:51.061
+!MESSAGE 08:31:51.060 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 4
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:51.071
+!MESSAGE 08:31:51.071 [pool-3-thread-26] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:51.238
+!MESSAGE 08:31:51.238 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 5
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:51.248
+!MESSAGE 08:31:51.247 [pool-3-thread-26] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:51.390
+!MESSAGE 08:31:51.390 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:51.397
+!MESSAGE 08:31:51.397 [pool-3-thread-26] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:54.118
+!MESSAGE 08:31:54.118 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - doc save event: file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/resources/application.properties
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:31:54.307
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:31:54.308
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:31:54.308
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-17 08:31:54.308
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:54.326
+!MESSAGE 08:31:54.141 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - additional reconciling with complete index triggered for: [C:\Workspaces\FSAD Skill\skill 7\src\main\java\com\klu\controller\CourseController.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:55.452
+!MESSAGE 08:31:55.451 [pool-3-thread-24] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/CourseApiApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:31:55.455
+!MESSAGE 08:31:55.454 [pool-3-thread-24] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/CourseApiApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:34:08.650
+!MESSAGE 08:34:08.649 [pool-5-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/CourseApiApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:34:08.650
+!MESSAGE 08:34:08.649 [pool-5-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/CourseApiApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:34:08.653
+!MESSAGE 08:34:08.653 [pool-3-thread-29] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/CourseApiApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:34:11.489
+!MESSAGE 08:34:11.489 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/controller/CourseController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:34:11.495
+!MESSAGE 08:34:11.491 [pool-3-thread-29] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/controller/CourseController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:34:11.519
+!MESSAGE 08:34:11.511 [pool-5-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/controller/CourseController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:34:11.593
+!MESSAGE 08:34:11.592 [pool-3-thread-30] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/controller/CourseController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:34:11.596
+!MESSAGE 08:34:11.596 [pool-3-thread-30] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/controller/CourseController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:34:11.993
+!MESSAGE 08:34:11.993 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/controller/CourseController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:40:28.212
+!MESSAGE 08:34:11.994 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/controller/CourseController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:40:28.219
+!MESSAGE 08:40:28.218 [pool-3-thread-34] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/model/Course.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:40:28.225
+!MESSAGE 08:40:28.224 [pool-5-thread-11] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/model/Course.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:40:28.305
+!MESSAGE 08:40:28.230 [pool-3-thread-32] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/model/Course.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:40:28.309
+!MESSAGE 08:40:28.308 [pool-3-thread-34] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/model/Course.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:40:28.715
+!MESSAGE 08:40:28.714 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/model/Course.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:40:46.742
+!MESSAGE 08:40:28.715 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/model/Course.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:40:46.767
+!MESSAGE 08:40:46.749 [pool-3-thread-35] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/repository/CourseRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:40:46.767
+!MESSAGE 08:40:46.764 [pool-3-thread-35] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/repository/CourseRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:40:46.796
+!MESSAGE 08:40:46.793 [pool-3-thread-32] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/repository/CourseRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:40:47.245
+!MESSAGE 08:40:47.245 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/repository/CourseRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:41:06.694
+!MESSAGE 08:40:47.245 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/repository/CourseRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:41:06.701
+!MESSAGE 08:41:06.695 [pool-5-thread-11] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/service/CourseService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:41:06.703
+!MESSAGE 08:41:06.703 [pool-5-thread-11] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/service/CourseService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:41:06.791
+!MESSAGE 08:41:06.709 [pool-3-thread-32] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/service/CourseService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:41:06.796
+!MESSAGE 08:41:06.793 [pool-3-thread-32] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/service/CourseService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-17 08:41:06.797
+!MESSAGE 08:41:06.794 [pool-3-thread-35] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%207/src/main/java/com/klu/service/CourseService.java

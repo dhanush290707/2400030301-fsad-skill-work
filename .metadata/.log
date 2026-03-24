@@ -3712,3 +3712,21 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-21 23:43:58.233
+!MESSAGE 23:38:01.095 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%208/src/main/java/com/klu/repository/ProductRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-21 23:43:58.237
+!MESSAGE 23:43:58.227 [pool-3-thread-16] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Workspaces/FSAD%20Skill/skill%208/src/main/java/com/klu/ProductSearchApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-21 23:43:58.384
+!MESSAGE 23:43:58.374 [pool-3-thread-16] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%208/src/main/java/com/klu/ProductSearchApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-21 23:44:03.582
+!MESSAGE 23:43:58.410 [pool-3-thread-16] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%208/src/main/java/com/klu/ProductSearchApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-21 23:48:06.375
+!MESSAGE 23:44:11.964 [pool-3-thread-17] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Workspaces/FSAD%20Skill/skill%208/src/main/java/com/klu/ProductSearchApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-21 23:48:06.453
+!MESSAGE 23:48:06.438 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Workspaces/FSAD%20Skill/skill%208/src/main/java/com/klu/controller/ProductController.java

@@ -16,13 +16,13 @@ const Dashboard = () => {
 
                 <Link to="/users-api" className="dashboard-card placeholder-card">
                     <div className="icon">🌐</div>
-                    <h2>JSONPlaceholder JSON</h2>
+                    <h2>Users API</h2>
                     <p>Fetch public API user records using fetch()</p>
                 </Link>
 
                 <Link to="/fake-posts" className="dashboard-card dummy-card">
                     <div className="icon">📝</div>
-                    <h2>DummyJSON Posts</h2>
+                    <h2>Fake API Posts</h2>
                     <p>Fetch and reload posts using Axios</p>
                 </Link>
             </div>

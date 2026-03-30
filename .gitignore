@@ -3,6 +3,7 @@
 
 # Allow all 'skill ' directories
 !/skill */
+!/Skill-13/
 
 # Allow this .gitignore file to be tracked
 !.gitignore

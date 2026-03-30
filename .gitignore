@@ -4,6 +4,7 @@
 # Allow all 'skill ' directories
 !/skill */
 !/Skill-13/
+!/Skill-14/
 
 # Allow this .gitignore file to be tracked
 !.gitignore
@@ -32,6 +33,9 @@ target/
 .mvn/
 *-rsp.xml
 dependency-reduced-pom.xml
+data/
+*.mv.db
+*.trace.db
 
 # Logs and OS files
 *.log

@@ -5,6 +5,8 @@
 !/skill */
 !/Skill-13/
 !/Skill-14/
+!/Skill-15/
+!/Skill-16/
 
 # Allow this .gitignore file to be tracked
 !.gitignore
